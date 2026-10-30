@@ -1,0 +1,26 @@
+<%- include('../partials/head', { title }) %>
+<%- include('../partials/shell-start', { title, page }) %>
+<div class="row between wrap">
+  <div><div class="kicker" id="orgType">Organisation</div><h2 id="orgName" style="font-size:22px">—</h2><p class="muted" id="facility"></p></div>
+  <div class="row"><span class="pill sample hidden" id="orgSample">SAMPLE DATA</span><span class="pill" id="emStatus"></span></div>
+</div>
+<div class="grid cols-4">
+  <div class="stat cyan"><small><i data-lucide="users"></i>Registered employees</small><strong id="sEmp">—</strong></div>
+  <div class="stat red"><small><i data-lucide="siren"></i>Active SOS requests</small><strong id="sSos">—</strong></div>
+  <div class="stat green"><small><i data-lucide="shield-check"></i>Marked safe</small><strong id="sSafe">—</strong></div>
+  <div class="stat amber"><small><i data-lucide="hand-helping"></i>Need assistance</small><strong id="sNeed">—</strong></div>
+</div>
+<div class="grid side">
+  <div class="panel">
+    <div class="panel-head"><i data-lucide="map"></i><h2>Floor-plan preview</h2><div class="spacer"></div><a class="btn sm" href="/saferoute"><i data-lucide="route"></i>Open SafeRoute</a></div>
+    <div style="border-radius:10px;overflow:hidden;border:1px solid var(--line);background:#0a1222"><img id="fpPreview" alt="Floor plan" style="width:100%;display:block" /></div>
+    <div class="list" id="fpList" style="margin-top:10px"></div>
+  </div>
+  <div class="stack">
+    <div class="panel"><div class="panel-head"><i data-lucide="clipboard-list"></i><h2>Emergency plans</h2></div><div class="list" id="plans"></div></div>
+    <div class="panel"><div class="panel-head"><i data-lucide="users"></i><h2>Employees</h2><div class="spacer"></div><a class="btn sm" href="/connect"><i data-lucide="radio-tower"></i>Connect</a></div><div class="list" id="emps"></div></div>
+  </div>
+</div>
+<%- include('../partials/shell-end') %>
+<script src="/js/organisation.js"></script>
+</body></html>

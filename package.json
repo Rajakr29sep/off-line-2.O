@@ -1,0 +1,36 @@
+{
+  "name": "offlineaid",
+  "version": "1.0.0",
+  "description": "OfflineAid - offline-first disaster preparedness, evacuation and emergency coordination",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "reset-demo": "node scripts/reset-demo.js",
+    "test:e2e": "node tests/e2e.js",
+    "test:ui": "node tests/ui.js",
+    "test:voice": "node tests/voice_ui.js",
+    "test:ai": "python_service\\.venv\\Scripts\\python.exe tests/ai_bench.py"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "ejs": "^3.1.10",
+    "express": "^4.22.3",
+    "gsap": "^3.15.0",
+    "leaflet": "^1.9.4",
+    "lucide": "^1.65.0",
+    "multer": "^2.5.0",
+    "pdfjs-dist": "^4.10.38",
+    "pmtiles": "^4.5.0",
+    "protomaps-leaflet": "^5.1.0",
+    "three": "^0.152.2",
+    "ws": "^8.22.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "playwright-core": "^1.64.1"
+  },
+  "engines": {
+    "node": ">=22.13"
+  }
+}

@@ -1,0 +1,30 @@
+<%- include('../partials/head', { title }) %>
+<%- include('../partials/shell-start', { title, page }) %>
+<div class="grid cols-2">
+  <div class="panel">
+    <div class="panel-head"><i data-lucide="user-round"></i><h2>Account</h2></div>
+    <table class="table"><tbody id="acct"></tbody></table>
+  </div>
+  <div class="panel">
+    <div class="panel-head"><i data-lucide="wifi"></i><h2>Connect phones over local Wi-Fi</h2></div>
+    <ol class="muted" style="padding-left:18px;line-height:1.8;font-size:13.5px;margin:0">
+      <li>Connect the phone to the <strong>same Wi-Fi router or hotspot</strong> as this laptop.</li>
+      <li>Open one of these addresses in the phone browser:</li>
+    </ol>
+    <div class="list" id="lanUrls" style="margin:10px 0"></div>
+    <p class="dim" style="font-size:12px">No internet is needed — only the local network. If the phone cannot load the page, allow Node.js through Windows Firewall on Private networks (see README).</p>
+  </div>
+  <div class="panel">
+    <div class="panel-head"><i data-lucide="inbox"></i><h2>This device's offline queue</h2></div>
+    <div class="list" id="queue"></div>
+    <div class="row" style="margin-top:10px"><button class="btn sm" id="flushBtn"><i data-lucide="send"></i>Retry now</button></div>
+  </div>
+  <div class="panel">
+    <div class="panel-head"><i data-lucide="info"></i><h2>About</h2></div>
+    <p class="muted" style="font-size:13px">OfflineAid hackathon MVP. Demo organisation, accounts, floor plan, plans, sample incidents, flood zones and relief camps are <strong>simulated</strong> and labelled as such. Map data © OpenStreetMap contributors (ODbL), basemap © Protomaps. Knowledge pack built from NDMA, NIDM and WHO guidance documents.</p>
+    <p class="muted" style="font-size:13px;margin-top:8px">General emergency guidance only. Contact local emergency services whenever possible.</p>
+  </div>
+</div>
+<%- include('../partials/shell-end') %>
+<script src="/js/settings.js"></script>
+</body></html>

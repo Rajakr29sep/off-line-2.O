@@ -1,0 +1,56 @@
+<%- include('../partials/head', { title }) %>
+<body data-page="login">
+<div class="login-wrap">
+  <div class="login-card">
+    <div class="login-side stack">
+      <div class="brand" style="padding:0"><span class="brand-mark"><i data-lucide="shield-plus"></i></span><span><strong>OfflineAid</strong><small>PREPARE · NAVIGATE · RESPOND</small></span></div>
+      <h1 style="font-size:28px;line-height:1.2">Emergency coordination that keeps working <span style="color:var(--cyan)">when the internet doesn't.</span></h1>
+      <p class="muted">Evacuation planning, two-way SOS over local Wi-Fi, offline maps and a local AI assistant — all running on this laptop.</p>
+      <div class="kicker" style="margin-top:8px">Demo accounts (sample data)</div>
+      <div class="list" id="demoAccounts"><div class="dim">Loading…</div></div>
+      <p class="dim" style="font-size:12px">PINs are listed in README.md. Clicking an account fills the username.</p>
+    </div>
+    <div class="stack" style="justify-content:center">
+      <h2>Sign in</h2>
+      <p class="muted">Use the PIN issued by your organisation or authority.</p>
+      <div class="notice warn hidden" id="expired"><i data-lucide="clock"></i>Your session expired. Please sign in again.</div>
+      <form id="loginForm" class="stack" autocomplete="off">
+        <div class="field"><label for="username">Username</label><input class="input" id="username" required maxlength="60" autocapitalize="none" /></div>
+        <div class="field"><label for="pin">PIN</label><input class="input" id="pin" type="password" inputmode="numeric" required maxlength="32" /></div>
+        <button class="btn primary lg" type="submit" id="loginBtn"><i data-lucide="log-in"></i>Sign in</button>
+        <div class="notice danger hidden" id="loginError"></div>
+      </form>
+    </div>
+  </div>
+</div>
+<script>
+  lucide.createIcons();
+  if (new URLSearchParams(location.search).get("expired")) document.getElementById("expired").classList.remove("hidden");
+  const esc = (v) => String(v ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
+  const roleLabel = { employee: "Employee", officer: "Safety Officer", administrator: "Administrator", citizen: "Citizen", government_operator: "Government" };
+  fetch("/api/auth/demo-accounts").then((r) => r.json()).then(({ accounts }) => {
+    document.getElementById("demoAccounts").innerHTML = accounts.map((a) =>
+      `<div class="demo-acc" data-u="${esc(a.username)}"><span><strong>${esc(a.name)}</strong> <span class="dim">· ${esc(a.username)}</span></span><span class="pill">${esc(roleLabel[a.role] || a.role)}</span></div>`).join("");
+    document.querySelectorAll(".demo-acc").forEach((el) => el.addEventListener("click", () => {
+      document.getElementById("username").value = el.dataset.u; document.getElementById("pin").focus();
+    }));
+  }).catch(() => { document.getElementById("demoAccounts").innerHTML = '<div class="dim">Server unreachable.</div>'; });
+  document.getElementById("loginForm").addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const err = document.getElementById("loginError"); err.classList.add("hidden");
+    const btn = document.getElementById("loginBtn"); btn.disabled = true;
+    try {
+      const res = await fetch("/api/auth/login", { method: "POST", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ username: document.getElementById("username").value, pin: document.getElementById("pin").value }) });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || "Sign-in failed");
+      localStorage.setItem("oa_token", data.token);
+      localStorage.setItem("oa_user", JSON.stringify(data.user));
+      const home = { employee: "/connect", citizen: "/map", government_operator: "/government", officer: "/connect", administrator: "/organisation" };
+      location.href = home[data.user.role] || "/";
+    } catch (ex) { err.textContent = ex.message === "Failed to fetch" ? "Cannot reach the OfflineAid server." : ex.message; err.classList.remove("hidden"); }
+    finally { btn.disabled = false; }
+  });
+</script>
+</body>
+</html>

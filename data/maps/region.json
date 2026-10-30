@@ -1,0 +1,20 @@
+{
+  "name": "Central New Delhi",
+  "bbox": [
+    77.19,
+    28.6,
+    77.245,
+    28.645
+  ],
+  "center": [
+    28.622500000000002,
+    77.2175
+  ],
+  "builtAt": "2026-10-30T06:59:39Z",
+  "attribution": "\u00a9 OpenStreetMap contributors (ODbL). Basemap \u00a9 Protomaps.",
+  "counts": {
+    "pois": 90,
+    "graphNodes": 21877,
+    "graphEdges": 24271
+  }
+}

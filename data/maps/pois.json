@@ -1,0 +1,902 @@
+[
+ {
+  "id": "osm-node-928491343",
+  "name": "Delhi Heart and Lung Institute Super Speciality Hospital",
+  "category": "hospital",
+  "lat": 28.6416777,
+  "lon": 77.2052683,
+  "address": "",
+  "phone": "",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-3424259566",
+  "name": "Dr. Gandhi",
+  "category": "clinic",
+  "lat": 28.6292249,
+  "lon": 77.2322767,
+  "address": "",
+  "phone": "",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-3424264696",
+  "name": "Dr. Kundan Lal",
+  "category": "clinic",
+  "lat": 28.6293653,
+  "lon": 77.2319405,
+  "address": "",
+  "phone": "",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-5136715532",
+  "name": "Fire Station Chanakyapuri",
+  "category": "fire_station",
+  "lat": 28.602644,
+  "lon": 77.1903646,
+  "address": "",
+  "phone": "+91-11-2611-2266",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-5483331672",
+  "name": "Unnamed fire station",
+  "category": "fire_station",
+  "lat": 28.6214349,
+  "lon": 77.2076446,
+  "address": "New Delhi",
+  "phone": "",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-5758573849",
+  "name": "City Hospital",
+  "category": "hospital",
+  "lat": 28.6439995,
+  "lon": 77.1912841,
+  "address": "",
+  "phone": "",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-5784310847",
+  "name": "Apollo Pharmacy",
+  "category": "pharmacy",
+  "lat": 28.6337914,
+  "lon": 77.217038,
+  "address": "8, New Delhi",
+  "phone": "+91 88269 92200",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-5784312301",
+  "name": "Medicine House",
+  "category": "pharmacy",
+  "lat": 28.6338871,
+  "lon": 77.2173285,
+  "address": "04, D00, New Delhi",
+  "phone": "+91-95825-34440;+91-11-2332-1747;+91-11-6590-8784;+91-11-2332-1758",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-5784312302",
+  "name": "Nath Brothers",
+  "category": "pharmacy",
+  "lat": 28.6338668,
+  "lon": 77.2173585,
+  "address": "",
+  "phone": "+91-98994-41605;+91-11-4151-6266;+91-11-2332-7284",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-6134779778",
+  "name": "Police Station New Delhi Railway Station",
+  "category": "police",
+  "lat": 28.6437003,
+  "lon": 77.2189266,
+  "address": "",
+  "phone": "",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-6148020512",
+  "name": "Police Post",
+  "category": "police",
+  "lat": 28.635912,
+  "lon": 77.2222854,
+  "address": "",
+  "phone": "",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-7138493129",
+  "name": "President Estate Clinic",
+  "category": "clinic",
+  "lat": 28.6208562,
+  "lon": 77.2004083,
+  "address": "",
+  "phone": "011-23092781",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-7138493150",
+  "name": "NDMC Dispensary",
+  "category": "clinic",
+  "lat": 28.6001742,
+  "lon": 77.230795,
+  "address": "",
+  "phone": "011-24646844",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-7138493152",
+  "name": "Vishwa Yuvak Kendra",
+  "category": "clinic",
+  "lat": 28.6039009,
+  "lon": 77.1952236,
+  "address": "",
+  "phone": "011 - 23013631",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-7138493163",
+  "name": "New Delhi Municipal Council Polyclinic",
+  "category": "clinic",
+  "lat": 28.633024,
+  "lon": 77.2111811,
+  "address": "",
+  "phone": "011-23365482",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-7138493182",
+  "name": "CGHS Dispensary South Avenue",
+  "category": "clinic",
+  "lat": 28.6092512,
+  "lon": 77.1998329,
+  "address": "",
+  "phone": "011-23013490",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-7138493190",
+  "name": "Babar Road Allopathic Dispensary",
+  "category": "clinic",
+  "lat": 28.6295482,
+  "lon": 77.234083,
+  "address": "",
+  "phone": "011-23739285",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-7138493193",
+  "name": "Kalawati Saran Children's Hospital",
+  "category": "hospital",
+  "lat": 28.6357652,
+  "lon": 77.2110664,
+  "address": "",
+  "phone": "011 2334 4147",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-7138493196",
+  "name": "Maulana Azad Institute of Dental Sciences",
+  "category": "hospital",
+  "lat": 28.6371532,
+  "lon": 77.236999,
+  "address": "",
+  "phone": "1123239279",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-7138493210",
+  "name": "CGHS Dispensary Pandara Road",
+  "category": "clinic",
+  "lat": 28.603382,
+  "lon": 77.2279162,
+  "address": "",
+  "phone": "011-23385040",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-7138493213",
+  "name": "DGD Delhi High Court",
+  "category": "clinic",
+  "lat": 28.6090129,
+  "lon": 77.2360929,
+  "address": "",
+  "phone": "011-23070962",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-7138493217",
+  "name": "CGHS Dispensary North Avenue",
+  "category": "clinic",
+  "lat": 28.622596,
+  "lon": 77.1994817,
+  "address": "",
+  "phone": "011-23094420",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-7138493247",
+  "name": "H.C.M. Lane Allopathic Dispensary",
+  "category": "clinic",
+  "lat": 28.6227119,
+  "lon": 77.2227032,
+  "address": "",
+  "phone": "011-23717670 , 011-23326601",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-7138493252",
+  "name": "CGHS Wellness Centre Kali Bari",
+  "category": "clinic",
+  "lat": 28.6288565,
+  "lon": 77.2001398,
+  "address": "",
+  "phone": "011-23743142",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-7138493258",
+  "name": "Central Hospital (Northern Railways)",
+  "category": "hospital",
+  "lat": 28.6365867,
+  "lon": 77.2173905,
+  "address": "",
+  "phone": "011- 2334 4092",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-7138493271",
+  "name": "Golf Link Allopathic Dispensary",
+  "category": "clinic",
+  "lat": 28.6002912,
+  "lon": 77.2306526,
+  "address": "",
+  "phone": "011-24652762",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-7138493274",
+  "name": "CGHS Dispensary Zakir Husain Road",
+  "category": "clinic",
+  "lat": 28.6055299,
+  "lon": 77.2346183,
+  "address": "",
+  "phone": "011-23383724",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-7138534287",
+  "name": "Lady Hardinge Medical College & Associated Hospitals",
+  "category": "hospital",
+  "lat": 28.634138,
+  "lon": 77.212909,
+  "address": "",
+  "phone": "1123363728",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-7138534298",
+  "name": "DGD, Suiwalan",
+  "category": "clinic",
+  "lat": 28.6447506,
+  "lon": 77.2351031,
+  "address": "",
+  "phone": "23243145",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-7138534340",
+  "name": "NGO Lok Kalyan Samiti",
+  "category": "hospital",
+  "lat": 28.629808,
+  "lon": 77.2387009,
+  "address": "",
+  "phone": "23235505",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-7138534362",
+  "name": "ESI Dispensary, Chuna Mandi Paharganj",
+  "category": "clinic",
+  "lat": 28.6427947,
+  "lon": 77.2098113,
+  "address": "",
+  "phone": "23580679",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-7138534368",
+  "name": "Mohan Eye Institute",
+  "category": "hospital",
+  "lat": 28.6431266,
+  "lon": 77.1906871,
+  "address": "",
+  "phone": "1125787655",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-7138534372",
+  "name": "Navjoyti Eye Centre",
+  "category": "hospital",
+  "lat": 28.6435226,
+  "lon": 77.2424612,
+  "address": "",
+  "phone": "23280018",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-7138534396",
+  "name": "CGHS Dispensary, C.G. Road",
+  "category": "clinic",
+  "lat": 28.642259,
+  "lon": 77.2084424,
+  "address": "",
+  "phone": "23676019",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-7138534435",
+  "name": "Neera Eye Centre",
+  "category": "hospital",
+  "lat": 28.6424432,
+  "lon": 77.2427645,
+  "address": "",
+  "phone": "1123270775",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-7544955437",
+  "name": "Sabharwal Hospital",
+  "category": "hospital",
+  "lat": 28.6443841,
+  "lon": 77.2385497,
+  "address": "",
+  "phone": "",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-7544955445",
+  "name": "Dr. P.N. Behl Skin Clinic",
+  "category": "clinic",
+  "lat": 28.6432419,
+  "lon": 77.2424546,
+  "address": "",
+  "phone": "",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-7544955507",
+  "name": "Sanjeevan Hospital",
+  "category": "hospital",
+  "lat": 28.6412816,
+  "lon": 77.2429413,
+  "address": "",
+  "phone": "",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-7544955523",
+  "name": "Khadija National Hospital",
+  "category": "hospital",
+  "lat": 28.6437984,
+  "lon": 77.2381596,
+  "address": "",
+  "phone": "",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-8151246340",
+  "name": "Arvind Medicare",
+  "category": "hospital",
+  "lat": 28.6311711,
+  "lon": 77.2170294,
+  "address": "New Delhi",
+  "phone": "",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-8151246349",
+  "name": "General Williams Hospital",
+  "category": "hospital",
+  "lat": 28.6267808,
+  "lon": 77.2182706,
+  "address": "New Delhi",
+  "phone": "",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-10570545209",
+  "name": "Preet Medicos",
+  "category": "pharmacy",
+  "lat": 28.6002519,
+  "lon": 77.2270265,
+  "address": "",
+  "phone": "",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-10570545409",
+  "name": "Youplus",
+  "category": "pharmacy",
+  "lat": 28.600632,
+  "lon": 77.2271857,
+  "address": "",
+  "phone": "",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-10576036741",
+  "name": "Anand Drug Store",
+  "category": "pharmacy",
+  "lat": 28.6001292,
+  "lon": 77.2274321,
+  "address": "",
+  "phone": "9310353839",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-10778055208",
+  "name": "Police Post, Khan Market",
+  "category": "police",
+  "lat": 28.6003274,
+  "lon": 77.2262488,
+  "address": "",
+  "phone": "",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-10869883005",
+  "name": "No entry for foreigners going towards the government buildings",
+  "category": "police",
+  "lat": 28.6153345,
+  "lon": 77.2093428,
+  "address": "",
+  "phone": "",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-10869921208",
+  "name": "Gate 35, No entry for foreigners",
+  "category": "police",
+  "lat": 28.6176525,
+  "lon": 77.1985707,
+  "address": "",
+  "phone": "",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-10869921306",
+  "name": "Unnamed police",
+  "category": "police",
+  "lat": 28.617356,
+  "lon": 77.2020072,
+  "address": "",
+  "phone": "",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-10945664767",
+  "name": "Guru Harkrishan Polyclinic Bangla Sahib",
+  "category": "hospital",
+  "lat": 28.6267693,
+  "lon": 77.2092035,
+  "address": "",
+  "phone": "011 23340171",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-11204948058",
+  "name": "Police Station Barakhamba Road",
+  "category": "police",
+  "lat": 28.6308823,
+  "lon": 77.2253541,
+  "address": "",
+  "phone": "",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-11223339246",
+  "name": "DCP Residence",
+  "category": "police",
+  "lat": 28.6274655,
+  "lon": 77.232869,
+  "address": "7, Sikandra Road",
+  "phone": "",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-11559262683",
+  "name": "Police assistance booth",
+  "category": "police",
+  "lat": 28.6012604,
+  "lon": 77.2273752,
+  "address": "",
+  "phone": "",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-12052451552",
+  "name": "Banwari Lal Charitable Trust Diagnostic Centre",
+  "category": "hospital",
+  "lat": 28.6420044,
+  "lon": 77.2042941,
+  "address": "",
+  "phone": "",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-12052465818",
+  "name": "Vinod Medicos",
+  "category": "pharmacy",
+  "lat": 28.6377937,
+  "lon": 77.2114515,
+  "address": "",
+  "phone": "",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-12052474063",
+  "name": "Apollo Pharmacy",
+  "category": "pharmacy",
+  "lat": 28.6337258,
+  "lon": 77.2085135,
+  "address": "",
+  "phone": "",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-12098409831",
+  "name": "Prepaid Auto Service",
+  "category": "police",
+  "lat": 28.6316262,
+  "lon": 77.219012,
+  "address": "",
+  "phone": "",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-12098494672",
+  "name": "Emergency assembly point",
+  "category": "shelter",
+  "lat": 28.6331862,
+  "lon": 77.2219872,
+  "address": "",
+  "phone": "",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-12098494673",
+  "name": "Emergency assembly point",
+  "category": "shelter",
+  "lat": 28.6329506,
+  "lon": 77.2221423,
+  "address": "",
+  "phone": "",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-12237600451",
+  "name": "Tourist Police Booth",
+  "category": "police",
+  "lat": 28.6420284,
+  "lon": 77.2182954,
+  "address": "",
+  "phone": "",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-12441175891",
+  "name": "Office Of The Deputy Commissioner Of Police Central District",
+  "category": "police",
+  "lat": 28.6415133,
+  "lon": 77.2409554,
+  "address": "",
+  "phone": "",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-12568241043",
+  "name": "Emergency assembly point",
+  "category": "shelter",
+  "lat": 28.614983,
+  "lon": 77.2445214,
+  "address": "",
+  "phone": "",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-12839647640",
+  "name": "Ayush Polyclinic",
+  "category": "clinic",
+  "lat": 28.6399323,
+  "lon": 77.2040074,
+  "address": "",
+  "phone": "",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-12896513993",
+  "name": "R. K. Health Care",
+  "category": "pharmacy",
+  "lat": 28.6324933,
+  "lon": 77.2067303,
+  "address": "",
+  "phone": "",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-12896611359",
+  "name": "Apollo Diagnostica Bones & Joints Clinic",
+  "category": "clinic",
+  "lat": 28.6325356,
+  "lon": 77.207086,
+  "address": "",
+  "phone": "+91 113442424",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-12896628034",
+  "name": "Ballani Skin Aesthetics",
+  "category": "clinic",
+  "lat": 28.6328201,
+  "lon": 77.2073014,
+  "address": "",
+  "phone": "+91 1122742",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-12896628035",
+  "name": "Medsurg Pharma",
+  "category": "pharmacy",
+  "lat": 28.6328049,
+  "lon": 77.2072974,
+  "address": "",
+  "phone": "",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-13472563750",
+  "name": "Delhi Police Headquarters",
+  "category": "police",
+  "lat": 28.6253997,
+  "lon": 77.212071,
+  "address": "",
+  "phone": "",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-13640908020",
+  "name": "Public Facilitation Booth",
+  "category": "police",
+  "lat": 28.6331466,
+  "lon": 77.2195152,
+  "address": "",
+  "phone": "",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-13705276520",
+  "name": "Metro City Pharmacy",
+  "category": "pharmacy",
+  "lat": 28.6338607,
+  "lon": 77.2170799,
+  "address": "7, New Delhi",
+  "phone": "+91-11-403-955-86",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-node-14076163807",
+  "name": "Jayprakash Infotech",
+  "category": "hospital",
+  "lat": 28.6094967,
+  "lon": 77.2116967,
+  "address": "B-202, sanjay Namr, ghaziabd",
+  "phone": "",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-way-34404757",
+  "name": "Dr. Ram Manohar Lohia Hospital",
+  "category": "hospital",
+  "lat": 28.6260617,
+  "lon": 77.2007463,
+  "address": "",
+  "phone": "011-22344470;23404040;23365525;23404325",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-way-44263455",
+  "name": "Lady Hardinge Medical College",
+  "category": "hospital",
+  "lat": 28.6352161,
+  "lon": 77.2127416,
+  "address": "C-604, Shaheed Baghat Singh Marg",
+  "phone": "",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-way-158038115",
+  "name": "Sir Ganga Ram Hospital",
+  "category": "hospital",
+  "lat": 28.6386014,
+  "lon": 77.189509,
+  "address": "Sir Ganga Ram Hospital Marg",
+  "phone": "+91 11 3512 5600;+91 11 4225 4000",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-way-265825061",
+  "name": "Unnamed hospital",
+  "category": "hospital",
+  "lat": 28.6457857,
+  "lon": 77.2421267,
+  "address": "",
+  "phone": "9899287970",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-way-266768715",
+  "name": "Daryaganj Police Station",
+  "category": "police",
+  "lat": 28.6417309,
+  "lon": 77.2413386,
+  "address": "",
+  "phone": "",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-way-289405076",
+  "name": "Govind Ballabh Pant Hospital",
+  "category": "hospital",
+  "lat": 28.6389002,
+  "lon": 77.2341742,
+  "address": "Jawaharlal Nehru Marg",
+  "phone": "+91 11 2323 2400",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-way-289405078",
+  "name": "Guru Nanak Eye Hospital",
+  "category": "hospital",
+  "lat": 28.6383024,
+  "lon": 77.2322347,
+  "address": "",
+  "phone": "1123235145",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-way-289405081",
+  "name": "Lok Nayak Hospital",
+  "category": "hospital",
+  "lat": 28.6388976,
+  "lon": 77.2386681,
+  "address": "Jawaharlal Nehru Marg",
+  "phone": "+91 11 2323 2400",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-way-289961816",
+  "name": "Unnamed police",
+  "category": "police",
+  "lat": 28.6425191,
+  "lon": 77.2260672,
+  "address": "",
+  "phone": "",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-way-293395747",
+  "name": "Unnamed police",
+  "category": "police",
+  "lat": 28.6251166,
+  "lon": 77.2446595,
+  "address": "",
+  "phone": "",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-way-294522137",
+  "name": "Mrs. Girdhar Lal Maternity Hospital",
+  "category": "hospital",
+  "lat": 28.6433234,
+  "lon": 77.2245015,
+  "address": "",
+  "phone": "+91 11 2323 1649",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-way-348459728",
+  "name": "Police Station Chankyapuri",
+  "category": "police",
+  "lat": 28.6028019,
+  "lon": 77.1960131,
+  "address": "Police Station Chankyapuri, Teen Murti Marg, New Delhi",
+  "phone": "",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-way-351374286",
+  "name": "Police Station Connaught Place",
+  "category": "police",
+  "lat": 28.6298552,
+  "lon": 77.2141861,
+  "address": "",
+  "phone": "+91-11-2374-7100",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-way-351561090",
+  "name": "Barakhamba Road Fire Station",
+  "category": "fire_station",
+  "lat": 28.632012,
+  "lon": 77.2233562,
+  "address": "",
+  "phone": "",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-way-351603877",
+  "name": "Police Station Tilak Marg",
+  "category": "police",
+  "lat": 28.6178784,
+  "lon": 77.235502,
+  "address": "",
+  "phone": "+91-11-2338-5571;+91-11-2338-2100",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-way-426529419",
+  "name": "Chaudhary Eye Centre",
+  "category": "hospital",
+  "lat": 28.6420359,
+  "lon": 77.2436745,
+  "address": "4802/24, Bharat Ram Road, Ansari Road, New Delhi",
+  "phone": "+91 97 17 896104",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-way-1296770202",
+  "name": "Central Reserve Police Force Transit Camp",
+  "category": "police",
+  "lat": 28.6409752,
+  "lon": 77.2244936,
+  "address": "",
+  "phone": "",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-way-1386958459",
+  "name": "Economic Offences Wing",
+  "category": "police",
+  "lat": 28.6391352,
+  "lon": 77.2030923,
+  "address": "",
+  "phone": "",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-way-1387015781",
+  "name": "Mandir Marg Police Station",
+  "category": "police",
+  "lat": 28.6383443,
+  "lon": 77.2025704,
+  "address": "",
+  "phone": "",
+  "source": "OpenStreetMap"
+ },
+ {
+  "id": "osm-way-1387015785",
+  "name": "Mandir Marg Police Station Complex",
+  "category": "police",
+  "lat": 28.6387794,
+  "lon": 77.2026667,
+  "address": "",
+  "phone": "",
+  "source": "OpenStreetMap"
+ }
+]

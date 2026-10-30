@@ -1,0 +1,65 @@
+<%- include('../partials/head', { title }) %>
+<%- include('../partials/shell-start', { title, page }) %>
+<div class="notice danger hidden" id="planAlert"></div>
+<div class="grid side">
+  <div class="panel stack" style="gap:10px">
+    <div class="row wrap between">
+      <div class="row wrap">
+        <select class="input" id="fpSelect" style="width:auto;min-width:240px" aria-label="Floor plan"></select>
+        <span class="pill sample hidden" id="fpSample">SAMPLE</span>
+        <button class="btn sm editor-only" id="uploadBtn"><i data-lucide="upload"></i>Upload floor plan</button>
+      </div>
+      <div class="row">
+        <button class="btn sm" id="zoomIn" title="Zoom in"><i data-lucide="zoom-in"></i></button>
+        <button class="btn sm" id="zoomOut" title="Zoom out"><i data-lucide="zoom-out"></i></button>
+        <button class="btn sm" id="fitBtn" title="Fit to screen"><i data-lucide="maximize"></i>Fit</button>
+        <button class="btn sm" id="resetBtn" title="Reset view"><i data-lucide="rotate-ccw"></i></button>
+      </div>
+    </div>
+    <div class="fp-toolbar">
+      <button class="btn sm active" data-mode="select"><i data-lucide="mouse-pointer-2"></i>Select / pan</button>
+      <button class="btn sm editor-only" data-mode="move"><i data-lucide="move"></i>Move</button>
+      <button class="btn sm editor-only" data-mode="add"><i data-lucide="circle-plus"></i>Add node</button>
+      <select class="input editor-only" id="addType" style="width:auto;padding:6px 8px;font-size:12.5px"></select>
+      <button class="btn sm editor-only" data-mode="connect"><i data-lucide="spline"></i>Connect</button>
+      <button class="btn sm" data-mode="block" title="Click a corridor/node to block it (live incident)"><i data-lucide="ban"></i>Block</button>
+      <button class="btn sm editor-only" data-mode="delete"><i data-lucide="trash-2"></i>Delete</button>
+      <span class="grow"></span>
+      <span class="pill warn hidden" id="dirtyPill">Unsaved changes</span>
+      <button class="btn sm primary editor-only" id="saveBtn"><i data-lucide="save"></i>Save</button>
+    </div>
+    <div class="fp-stage" id="stage"><svg id="svg" xmlns="http://www.w3.org/2000/svg"></svg></div>
+    <div class="row between wrap">
+      <div class="fp-legend" id="legend"></div>
+      <span class="dim" style="font-size:12px" id="hint">Drag to pan · scroll to zoom</span>
+    </div>
+  </div>
+  <div class="stack">
+    <div class="panel">
+      <div class="panel-head"><i data-lucide="route"></i><h2>Evacuation route</h2></div>
+      <div class="stack" style="gap:10px">
+        <div class="field"><label>Saved plan</label><select class="input" id="planSelect"><option value="">— Ad-hoc route —</option></select></div>
+        <div class="field"><label>Start</label><select class="input" id="startSel"></select></div>
+        <div class="field"><label>Destination</label><select class="input" id="destSel"></select></div>
+        <button class="btn primary" id="routeBtn"><i data-lucide="navigation"></i>Calculate route</button>
+        <div id="routeOut"></div>
+        <div id="blockedOut"></div>
+      </div>
+    </div>
+    <div class="panel hidden" id="planInfo"></div>
+    <div class="panel editor-only hidden" id="nodePanel"></div>
+    <div class="panel editor-only">
+      <div class="panel-head"><i data-lucide="file-plus"></i><h2>Save as evacuation plan</h2></div>
+      <form class="stack" id="planForm" style="gap:10px">
+        <div class="field"><label>Name</label><input class="input" id="planName" required maxlength="80" placeholder="Fire evacuation — Line B" /></div>
+        <div class="field"><label>Emergency type</label><select class="input" id="planType"><option value="fire">Fire</option><option value="earthquake">Earthquake</option><option value="medical">Medical</option><option value="flood">Flood</option><option value="chemical">Chemical</option><option value="other">Other</option></select></div>
+        <div class="field"><label>Instructions</label><textarea class="input" id="planInstr" maxlength="3000"></textarea></div>
+        <div class="row"><button class="btn primary" type="submit"><i data-lucide="save"></i>Save new plan</button><button class="btn" type="button" id="updatePlan" disabled>Update selected</button></div>
+        <p class="dim" style="font-size:12px">Uses the start, destination and currently blocked items above.</p>
+      </form>
+    </div>
+  </div>
+</div>
+<%- include('../partials/shell-end') %>
+<script src="/js/saferoute.js"></script>
+</body></html>

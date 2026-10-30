@@ -1,0 +1,14 @@
+# OfflineAid AI service (Python 3.11 recommended)
+fastapi
+uvicorn[standard]
+python-multipart
+httpx
+chromadb==0.5.20
+libzim>=3.4
+beautifulsoup4
+# Only needed to (re)build the demo ZIM pack from PDFs: scripts/build_zim_pack.py
+PyMuPDF==1.24.14
+# Removed for MVP: sentence-transformers (CrossEncoder reranking), langchain PDF loaders
+# Optional local voice (Tier 4). Models: scripts/prepare_voice.py
+faster-whisper
+piper-tts

@@ -1,0 +1,106 @@
+<%- include('../partials/head', { title }) %>
+<%- include('../partials/shell-start', { title, page }) %>
+
+<!-- ================= Employee / citizen view ================= -->
+<section id="senderView" class="hidden stack">
+  <div class="grid side">
+    <div class="stack">
+      <div id="alertArea" class="stack"></div>
+      <div class="panel">
+        <div class="row between wrap">
+          <div>
+            <div class="kicker">Emergency</div>
+            <h2 id="senderName">—</h2>
+            <p class="muted" id="senderOrg">—</p>
+          </div>
+          <span class="pill" id="senderSafety"><span class="dot"></span>Status unknown</span>
+        </div>
+        <div class="sos-wrap">
+          <button class="sos-btn" id="sosBtn" aria-label="Send SOS">SOS<small>PRESS FOR HELP</small></button>
+          <p class="muted" style="text-align:center;max-width:420px">Your request is saved on this device first, then delivered to the
+            <span id="sosTarget">safety officer</span> over the local network. If the network is down it is queued and sent automatically.</p>
+        </div>
+      </div>
+      <div class="panel">
+        <div class="panel-head"><i data-lucide="history"></i><h2>My requests &amp; messages</h2><div class="spacer"></div><span class="dim" style="font-size:12px">Delivery states update live</span></div>
+        <div class="list" id="myItems"><div class="empty">No requests yet.</div></div>
+      </div>
+    </div>
+    <div class="stack">
+      <div class="panel">
+        <div class="panel-head"><i data-lucide="megaphone"></i><h2>Official alerts</h2></div>
+        <div class="list" id="alertHistory"><div class="empty">No alerts received.</div></div>
+      </div>
+      <div class="panel">
+        <div class="panel-head"><i data-lucide="info"></i><h2>Delivery states</h2></div>
+        <div class="stack" style="font-size:12.5px;gap:6px">
+          <div><span class="pill STORED_LOCALLY">STORED LOCALLY</span> saved on this device</div>
+          <div><span class="pill QUEUED">QUEUED</span> waiting for the local server</div>
+          <div><span class="pill RELAYED">RELAYED</span> accepted by the OfflineAid server</div>
+          <div><span class="pill RECEIVED">RECEIVED</span> shown on the officer's dashboard</div>
+          <div><span class="pill ACKNOWLEDGED">ACKNOWLEDGED</span> officer explicitly responded</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= Officer / admin view ================= -->
+<section id="officerView" class="hidden stack">
+  <div class="grid cols-4">
+    <div class="stat red"><small><i data-lucide="siren"></i>Active SOS</small><strong id="stActive">0</strong></div>
+    <div class="stat amber"><small><i data-lucide="hand-helping"></i>Need assistance</small><strong id="stNeed">0</strong></div>
+    <div class="stat green"><small><i data-lucide="shield-check"></i>Marked safe</small><strong id="stSafe">0</strong></div>
+    <div class="stat cyan"><small><i data-lucide="users"></i>Employees online</small><strong id="stOnline">0</strong></div>
+  </div>
+  <div class="grid side">
+    <div class="stack">
+      <div class="panel">
+        <div class="panel-head"><i data-lucide="siren"></i><h2>Incoming emergency requests</h2><div class="spacer"></div>
+          <select class="input" id="reqFilter" style="width:auto"><option value="">All</option><option value="OPEN">Open</option><option value="IN_PROGRESS">In progress</option><option value="RESOLVED">Resolved</option></select></div>
+        <div class="list" id="reqList"><div class="empty">No requests.</div></div>
+      </div>
+      <div class="panel" id="reqDetail"><div class="empty">Select a request to open it.</div></div>
+    </div>
+    <div class="stack">
+      <div class="panel">
+        <div class="panel-head"><i data-lucide="megaphone"></i><h2>Send official alert</h2></div>
+        <form id="alertForm" class="stack">
+          <div class="field"><label>Template</label>
+            <select class="input" id="alertTemplate">
+              <option value="">Custom…</option>
+              <option value="evac">Fire — evacuate now</option>
+              <option value="quake">Earthquake — drop, cover, hold</option>
+              <option value="clear">All clear</option>
+            </select></div>
+          <div class="field"><label for="alertTitle">Title</label><input class="input" id="alertTitle" required maxlength="120" /></div>
+          <div class="field"><label for="alertMsg">Message / instructions</label><textarea class="input" id="alertMsg" required maxlength="1500"></textarea></div>
+          <div class="grid cols-2" style="gap:10px">
+            <div class="field"><label>Category</label><select class="input" id="alertCat"></select></div>
+            <div class="field"><label>Severity</label><select class="input" id="alertSev"><option value="critical">Critical</option><option value="warning">Warning</option><option value="info">Info</option></select></div>
+          </div>
+          <div class="field"><label>Attach evacuation plan (route shown to employees)</label><select class="input" id="alertPlan"><option value="">None</option></select></div>
+          <button class="btn danger" type="submit"><i data-lucide="send"></i>Send to all employees</button>
+          <p class="dim" style="font-size:12px">Signed as <strong id="alertSigner">—</strong>. Only authenticated officers/administrators can issue alerts.</p>
+        </form>
+      </div>
+      <div class="panel">
+        <div class="panel-head"><i data-lucide="message-square-reply"></i><h2>Employee responses</h2></div>
+        <div class="list" id="responseList"><div class="empty">No responses yet.</div></div>
+      </div>
+      <div class="panel">
+        <div class="panel-head"><i data-lucide="radio"></i><h2>Alerts &amp; delivery</h2><div class="spacer"></div>
+          <button class="btn sm ghost" id="clearEmergency" title="Close alerts and reset employee statuses"><i data-lucide="circle-check"></i>Stand down</button></div>
+        <div class="list" id="alertList"><div class="empty">No alerts sent.</div></div>
+      </div>
+      <div class="panel">
+        <div class="panel-head"><i data-lucide="users"></i><h2>Staff roster</h2></div>
+        <div class="list" id="roster"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<%- include('../partials/shell-end') %>
+<script src="/js/connect.js"></script>
+</body></html>

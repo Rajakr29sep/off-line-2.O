@@ -1,0 +1,12 @@
+node_modules/
+python_service/.venv/
+__pycache__/
+.env
+data/offlineaid.db*
+data/knowledge_sources.db
+data/chroma/
+data/uploads/
+data/voice/
+data/test-screenshots/
+data/maps/osm_raw.json
+tools/

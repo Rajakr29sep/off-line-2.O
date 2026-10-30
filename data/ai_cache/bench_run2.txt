@@ -1,0 +1,54 @@
+
+=== What should I do during an earthquake?
+first words 0.4 s | total 9.6 s | grounded=True | PASS
+sources: [('Earthquake Preparedness and Response - page 5', 'offlineaid_emergency_en.zim'), ('Earthquake Preparedness and Response - page 3', 'offlineaid_emergency_en.zim')]
+• Drop down to your knees and make yourself small, cover your head and neck, and protect your face [1]
+• If indoors, practice drop, cover, hold until the shaking stops and you are sure it is safe to exit [1]
+• If you are travelling in a vehicle, pull off the road to a clear area, stop the vehicle, and apply parking brake [1]
+• If you are near an exit point, quickly move outside and stand in open space [1]
+• Cover your head and neck with one arm and hand, and hold on to a sturdy table or desk for shelter [2]
+
+=== What should I do if a building catches fire?
+first words 0.9 s | total 7.9 s | grounded=True | PASS
+sources: [("NDMA Disaster Do's and Don'ts - page 7", 'offlineaid_emergency_en.zim'), ("NDMA Disaster Do's and Don'ts - page 7", 'offlineaid_emergency_en.zim')]
+• STOP, DROP and ROLL in case of uncontrolled fire, wrap the victim in a blanket till the fire ceases [1]
+• Conduct regular drills to prepare for fire emergencies [1]
+• Get your premises fire audited and check for loose electric connections [2]
+• Dial 101 in case of fire [2]
+• Lay down/sit near the floor, curtail entry of smoke into the room, look for exit, breathe through wet cloth [2]
+
+=== What precautions should I take during a flood?
+first words 0.8 s | total 7.2 s | grounded=True | PASS
+sources: [("NDMA Disaster Do's and Don'ts - page 5", 'offlineaid_emergency_en.zim'), ('Flood Preparedness and Response - page 4', 'offlineaid_emergency_en.zim')]
+* Seal entry points around doors and vents, and seal windows if water is likely to rise that high [1]
+* Do not drive in flood water as it can wash away even big vehicles [2]
+* Stay away from electric poles and fallen power lines to avoid electrocution [2]
+* Wash hands with soap and water before eating food or feeding young ones [2]
+* Turn off the main power supply [1]
+
+=== What are the basic first-aid steps for an injured person?
+first words 0.9 s | total 9.5 s | grounded=True | PASS
+sources: [('WHO Prehospital Emergency Care Pocket Reference - page 7', 'offlineaid_emergency_en.zim'), ('WHO Prehospital Emergency Care Pocket Reference - page 14', 'offlineaid_emergency_en.zim')]
+• Apply tourniquet above injury, document time of application, check responsiveness, and pulse [1]
+• Check airway is open and self-maintained, and perform head-tilt chin-lift and Uaw thrust if trauma [1]
+• Assess breathing and provide BVM ventilations if necessary, and assess circulation [1]
+• Clean and disinfect surfaces using a cloth and soapy water or disinfectant [2]
+• Immobilize cervical spine if indicated, and intubate/advanced airway if necessary [1]
+
+=== Who won the 2018 FIFA World Cup?
+first words None s | total 0.7 s | grounded=False | PASS
+sources: []
+Not found in the loaded knowledge pack.
+
+=== How do I bake a chocolate cake?
+first words None s | total 0.7 s | grounded=False | PASS
+sources: []
+Not found in the loaded knowledge pack.
+
+SUMMARY
+PASS | first 0.4s | total 9.6s | <10s | What should I do during an earthquake?
+PASS | first 0.9s | total 7.9s | <10s | What should I do if a building catches fire?
+PASS | first 0.8s | total 7.2s | <10s | What precautions should I take during a flood?
+PASS | first 0.9s | total 9.5s | <10s | What are the basic first-aid steps for an injured person?
+PASS | first Nones | total 0.7s | <10s | Who won the 2018 FIFA World Cup?
+PASS | first Nones | total 0.7s | <10s | How do I bake a chocolate cake?

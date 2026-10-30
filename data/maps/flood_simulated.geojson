@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "name": "OfflineAid simulated flood hazard overlay",
+  "metadata": {
+    "simulated": true,
+    "note": "SIMULATED DEMO DATA. These polygons and relief camps are invented for the hackathon demo and do not represent real flood risk or real shelters."
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "id": "flood-sim-1", "kind": "flood_zone", "name": "Simulated water-logging zone A (Ashoka Road)", "severity": "high", "simulated": true },
+      "geometry": { "type": "Polygon", "coordinates": [[[77.2083, 28.6238], [77.2118, 28.6232], [77.2122, 28.6250], [77.2104, 28.6268], [77.2080, 28.6262], [77.2083, 28.6238]]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "flood-sim-2", "kind": "flood_zone", "name": "Simulated water-logging zone B (Minto Road underpass)", "severity": "medium", "simulated": true },
+      "geometry": { "type": "Polygon", "coordinates": [[[77.2270, 28.6355], [77.2300, 28.6350], [77.2310, 28.6375], [77.2280, 28.6385], [77.2265, 28.6370], [77.2270, 28.6355]]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "camp-sim-1", "kind": "relief_camp", "name": "SIMULATED relief camp 1", "capacity": 300, "simulated": true },
+      "geometry": { "type": "Point", "coordinates": [77.2035, 28.6195] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "camp-sim-2", "kind": "relief_camp", "name": "SIMULATED relief camp 2", "capacity": 150, "simulated": true },
+      "geometry": { "type": "Point", "coordinates": [77.2240, 28.6290] }
+    }
+  ]
+}

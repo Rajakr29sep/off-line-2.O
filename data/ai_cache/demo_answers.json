@@ -1,0 +1,108 @@
+{
+  "what should i do during an earthquake": {
+    "answer": "\u2022 Drop down to your knees and make yourself small, cover your head and neck, and protect your face [1]\n\u2022 If indoors, practice drop, cover, hold until the shaking stops and you are sure it is safe to exit [1]\n\u2022 If you are travelling in a vehicle, pull off the road to a clear area, stop the vehicle, and apply parking brake [1]\n\u2022 If you are near an exit point, quickly move outside and stand in open space [1]\n\u2022 Cover your head and neck with one arm and hand, and hold on to a sturdy table or desk for shelter [2]",
+    "grounded": true,
+    "sources": [
+      {
+        "n": 1,
+        "title": "Earthquake Preparedness and Response - page 5",
+        "zim_file": "offlineaid_emergency_en.zim",
+        "path": "earthquake_rescue/page_005",
+        "origin_file": "earthquake_rescue.pdf",
+        "origin_page": 5,
+        "excerpt": "\u0080 Remember the emergency message of Drop, Cover, Hold. Drop down to your knees and make yourself small. Cover your head and neck and protect your face. Hold on to this cover or move with it until the shaking stops. Do not attempt to run \u0080 If indoors, practice drop, cover, hold un",
+        "distance": 0.1636
+      },
+      {
+        "n": 2,
+        "title": "Earthquake Preparedness and Response - page 3",
+        "zim_file": "offlineaid_emergency_en.zim",
+        "path": "earthquake_rescue/page_003",
+        "origin_file": "earthquake_rescue.pdf",
+        "origin_page": 3,
+        "excerpt": "alling or flying objects 3 3 Ensure that children and elders know what to do in case of tremors/earthquakes 3 3 Make a plan for the evacuation of elders, children and physically challenged in case of an earthquake COVER your head and neck with one arm and hand. \u00bb If a sturdy tabl",
+        "distance": 0.1822
+      }
+    ],
+    "disclaimer": "General emergency guidance only. Contact local emergency services whenever possible.",
+    "model": "llama3.2:3b",
+    "validated_at": "2026-10-30 13:04"
+  },
+  "what should i do if a building catches fire": {
+    "answer": "\u2022 STOP, DROP and ROLL if clothes catch fire [1]\n\u2022 Conduct regular drills to prepare for fire [1]\n\u2022 Get your premises fire audited and check for loose electric connections [2]\n\u2022 Dial 101 in case of fire [2]\n\u2022 Lay down/sit near the floor if trapped, curtail entry of smoke into the room, look for exit [2]",
+    "grounded": true,
+    "sources": [
+      {
+        "n": 1,
+        "title": "NDMA Disaster Do's and Don'ts - page 7",
+        "zim_file": "offlineaid_emergency_en.zim",
+        "path": "disaster_safety/page_007",
+        "origin_file": "disaster_safety.pdf",
+        "origin_page": 7,
+        "excerpt": "hes catch fire, STOP, DROP and ROLL. Conduct regular drills. = Incase of uncontrolled fire, wrap the victim in a blanket, till the fire ceases. Don\u2019ts = Don\u2019t burn crackers in crowded, congested places, narrow lanes or inside the house. = Don\u2019t cover crackers with tin containers ",
+        "distance": 0.2245
+      },
+      {
+        "n": 2,
+        "title": "NDMA Disaster Do's and Don'ts - page 7",
+        "zim_file": "offlineaid_emergency_en.zim",
+        "path": "disaster_safety/page_007",
+        "origin_file": "disaster_safety.pdf",
+        "origin_page": 7,
+        "excerpt": "Fire ! {- F J as ~~. rr. Fire gs ( yy ; a ii on 2 i ae Oa ~_| \\ =n ~\u00ae = ' ee nd at ~* & ee \\\\\\ - fr 4 Y* ee \\ Leet) B i \\_axe A vii |\\ | i, ree \\_I | tm(es) f\\ 1 \u2018an IN rh , el c\\ \u2014\u2014\\\\ Z ate mae (xl Do\u2019s = Get your premises fire audited; check for loose electric connections; don\u2019",
+        "distance": 0.2423
+      }
+    ],
+    "disclaimer": "General emergency guidance only. Contact local emergency services whenever possible.",
+    "model": "llama3.2:3b",
+    "validated_at": "2026-10-30 13:04"
+  },
+  "what precautions should i take during a flood": {
+    "answer": "\u2022 Seal entry points around doors and vents, and seal windows if water is likely to rise that high [1]\n\u2022 Do not drive in flood water as it can wash away even big vehicles [2]\n\u2022 Stay away from electric poles and fallen power lines to avoid electrocution [2]\n\u2022 Wash hands with soap and water before eating food or feeding young ones [2]\n\u2022 Use disinfectants to keep your surroundings clean [2]",
+    "grounded": true,
+    "sources": [
+      {
+        "n": 1,
+        "title": "NDMA Disaster Do's and Don'ts - page 5",
+        "zim_file": "offlineaid_emergency_en.zim",
+        "path": "disaster_safety/page_005",
+        "origin_file": "disaster_safety.pdf",
+        "origin_page": 5,
+        "excerpt": "bags to seal entry points around doors and vents. Also, seal windows if the water is likely to rise that high. = Do not let children and pregnant woman remain empty stomach. = Be careful of snake bites which are common in post floods. After = Pack warm clothing, essential medicat",
+        "distance": 0.173
+      },
+      {
+        "n": 2,
+        "title": "Flood Preparedness and Response - page 4",
+        "zim_file": "offlineaid_emergency_en.zim",
+        "path": "flood_rescue/page_004",
+        "origin_file": "flood_rescue.pdf",
+        "origin_page": 4,
+        "excerpt": "Actions for INDIVIDUALS/FAMILY Actions for COMMUNITY 3 3 Do not drive in flood water as it can wash away even big vehicles 3 3 Eat freshly cooked or dry food. Keep your food covered 3 3 Drink boiled or chlorinated water 3 3 Stay away from electric poles and fallen power lines to ",
+        "distance": 0.2022
+      }
+    ],
+    "disclaimer": "General emergency guidance only. Contact local emergency services whenever possible.",
+    "model": "llama3.2:3b",
+    "validated_at": "2026-10-30 13:04"
+  },
+  "what are the basic firstaid steps for an injured person": {
+    "answer": "\u2022 Apply tourniquet above injury, document time of application, check responsiveness, and pulse [1]\n\u2022 Check airway is open and self-maintained, and perform head-tilt chin-lift and Uaw thrust if trauma [1]\n\u2022 Assess breathing, and perform BVM ventilations if no or inadequate breathing [1]\n\u2022 Assess circulation, and provide oxygen as needed [1]\n\u2022 Immobilize cervical spine if indicated [1]",
+    "grounded": true,
+    "sources": [
+      {
+        "n": 1,
+        "title": "WHO Prehospital Emergency Care Pocket Reference - page 7",
+        "zim_file": "offlineaid_emergency_en.zim",
+        "path": "first_aid/page_007",
+        "origin_file": "first_aid.pdf",
+        "origin_page": 7,
+        "excerpt": "wound \u2022 If not controlled \u2794tourniquet o Apply above injury, document time of application. Check responsiveness \u2022 If not responsive \u2794 check pulse \u2022 If no pulse \u2794 CPR (per local protocol) Check airway is open and self maintained \u2022 If not \u2794 head-tilt chin-lift Uaw thrust if trauma) ",
+        "distance": 0.2549
+      }
+    ],
+    "disclaimer": "General emergency guidance only. Contact local emergency services whenever possible.",
+    "model": "llama3.2:3b",
+    "validated_at": "2026-10-30 13:04"
+  }
+}

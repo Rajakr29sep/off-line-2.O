@@ -1,0 +1,26 @@
+<%- include('../partials/head', { title }) %>
+<%- include('../partials/shell-start', { title, page }) %>
+<div class="grid side">
+  <div class="panel">
+    <div class="panel-head"><i data-lucide="library"></i><h2>Knowledge packs (ZIM)</h2><div class="spacer"></div><span class="dim" id="totalChunks"></span></div>
+    <table class="table"><thead><tr><th>Pack</th><th>Size</th><th>Status</th><th>Articles</th><th>Chunks</th><th>Indexed</th><th></th></tr></thead><tbody id="srcRows"></tbody></table>
+  </div>
+  <div class="stack">
+    <div class="panel" id="uploadPanel">
+      <div class="panel-head"><i data-lucide="upload"></i><h2>Add a ZIM knowledge pack</h2></div>
+      <form id="zimForm" class="stack">
+        <input class="input" type="file" id="zimFile" accept=".zim" required />
+        <button class="btn primary" id="zimBtn"><i data-lucide="upload"></i>Upload &amp; index</button>
+        <div id="zimMsg"></div>
+      </form>
+      <p class="dim" style="font-size:12px;margin-top:10px">ZIM files are validated, de-duplicated by checksum and indexed incrementally (article by article) with nomic-embed-text. Large packs take a long time on CPU — prepare packs before a demo.</p>
+    </div>
+    <div class="panel">
+      <div class="panel-head"><i data-lucide="info"></i><h2>Bundled demo pack</h2></div>
+      <p class="muted" style="font-size:13px"><strong>offlineaid_emergency_en.zim</strong> was built with <span class="mono">scripts/build_zim_pack.py</span> from the project's NDMA, NIDM and WHO guidance PDFs (one article per page, scanned pages OCR'd). Any standard Kiwix ZIM can be added the same way.</p>
+    </div>
+  </div>
+</div>
+<%- include('../partials/shell-end') %>
+<script src="/js/knowledge.js"></script>
+</body></html>

@@ -1,0 +1,41 @@
+<%- include('../partials/head', { title, leaflet: true }) %>
+<%- include('../partials/shell-start', { title, page }) %>
+<div class="grid side">
+  <div class="panel" style="padding:10px">
+    <div class="map-box" id="map"></div>
+  </div>
+  <div class="stack">
+    <div class="panel">
+      <div class="panel-head"><i data-lucide="search"></i><h2>Find help nearby</h2></div>
+      <form id="searchForm" class="row"><input class="input" id="q" placeholder="hospital, police, fire, shelter, pharmacy…" maxlength="80" /><button class="btn primary"><i data-lucide="search"></i></button></form>
+      <div class="chips" style="margin-top:10px">
+        <button class="chip" data-q="hospital"><i data-lucide="hospital"></i>Hospital</button>
+        <button class="chip" data-q="shelter"><i data-lucide="tent"></i>Shelter</button>
+        <button class="chip" data-q="police"><i data-lucide="shield"></i>Police</button>
+        <button class="chip" data-q="fire"><i data-lucide="flame"></i>Fire station</button>
+        <button class="chip" data-q="pharmacy"><i data-lucide="pill"></i>Pharmacy</button>
+      </div>
+    </div>
+    <div class="panel">
+      <div class="panel-head"><i data-lucide="locate"></i><h2>Starting point</h2></div>
+      <div class="stack" style="gap:8px">
+        <div class="row wrap"><button class="btn sm" id="gpsBtn"><i data-lucide="locate-fixed"></i>Use my location</button><button class="btn sm" id="demoStart"><i data-lucide="map-pin"></i>Demo start (Patel Chowk)</button></div>
+        <div class="dim" style="font-size:12px" id="startInfo">Click the map or drag the marker to set where you are.</div>
+        <div class="row wrap" style="gap:14px">
+          <label class="row" style="gap:6px"><input type="checkbox" id="avoidFlood" /> Avoid flood zones</label>
+          <label class="row" style="gap:6px"><input type="checkbox" id="showFlood" /> Show flood overlay</label>
+          <select class="input" id="mode" style="width:auto;padding:5px 8px"><option value="walk">Walking</option><option value="drive">Driving</option></select>
+        </div>
+      </div>
+    </div>
+    <div class="panel"><div class="panel-head"><i data-lucide="list"></i><h2 id="resTitle">Results</h2></div><div class="list" id="results" style="max-height:340px;overflow:auto"><div class="empty">Search for a place.</div></div></div>
+    <div class="panel hidden" id="routePanel"></div>
+    <p class="dim" style="font-size:12px">Map tiles, places, search index and road graph are stored on this laptop. Routing uses real OpenStreetMap roads in the offline region only.</p>
+  </div>
+</div>
+<%- include('../partials/shell-end') %>
+<script src="/vendor/leaflet/leaflet.js"></script>
+<script src="/vendor/protomaps-leaflet/protomaps-leaflet.js"></script>
+<script src="/js/oamap.js"></script>
+<script src="/js/map.js"></script>
+</body></html>

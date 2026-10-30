@@ -1,0 +1,31 @@
+<%- include('../partials/head', { title, leaflet: true }) %>
+<%- include('../partials/shell-start', { title, page }) %>
+<div class="notice info"><i data-lucide="info"></i><div>Shared view of emergency requests from citizens and organisations that share data with government. Flood zones and relief camps are <strong>SIMULATED demo data</strong>; hospitals, police, fire stations and assembly points come from OpenStreetMap.</div></div>
+<div class="grid cols-4">
+  <div class="stat red"><small><i data-lucide="siren"></i>Open incidents</small><strong id="gOpen">0</strong></div>
+  <div class="stat amber"><small><i data-lucide="loader"></i>In progress</small><strong id="gProg">0</strong></div>
+  <div class="stat green"><small><i data-lucide="check-check"></i>Resolved</small><strong id="gRes">0</strong></div>
+  <div class="stat cyan"><small><i data-lucide="users"></i>People affected (open)</small><strong id="gPeople">0</strong></div>
+</div>
+<div class="grid side">
+  <div class="panel" style="padding:10px">
+    <div class="row wrap" style="padding:4px 6px 10px">
+      <label class="row" style="gap:6px"><input type="checkbox" id="layFlood" checked /> Flood hazard (simulated)</label>
+      <label class="row" style="gap:6px"><input type="checkbox" id="layHosp" checked /> Hospitals</label>
+      <label class="row" style="gap:6px"><input type="checkbox" id="layShelter" checked /> Shelters</label>
+      <label class="row" style="gap:6px"><input type="checkbox" id="layServices" /> Police &amp; fire</label>
+      <label class="row" style="gap:6px"><input type="checkbox" id="layInc" checked /> Incidents</label>
+    </div>
+    <div class="map-box" id="map"></div>
+  </div>
+  <div class="panel">
+    <div class="panel-head"><i data-lucide="radio-receiver"></i><h2>Shared request feed</h2><div class="spacer"></div><span class="pill live online"><span class="dot"></span>live</span></div>
+    <div class="list" id="feed" style="max-height:690px;overflow:auto"></div>
+  </div>
+</div>
+<%- include('../partials/shell-end') %>
+<script src="/vendor/leaflet/leaflet.js"></script>
+<script src="/vendor/protomaps-leaflet/protomaps-leaflet.js"></script>
+<script src="/js/oamap.js"></script>
+<script src="/js/government.js"></script>
+</body></html>
